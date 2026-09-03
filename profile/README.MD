@@ -10,7 +10,7 @@
 * [Все начинается с IDE](./how-to/IDE.md)
 
 ## Лекции
-:construction:
+* [Лекция 1](./media/lec-1.pdf)
 
 ## Лабораторные работы
 :construction:
