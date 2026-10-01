@@ -1,8 +1,8 @@
 # Все еще разминка
 ## Задание
-содержимое `Main.hs` для  `/lab2/app/Main.hs`. Комментарии над функциями можно стереть
+содержимое `Lab2.hs` для  `/lab2/app/Lab2.hs`. Комментарии над функциями можно стереть
 ```haskell
-module Main where
+module Lab2 where
 
 import Prelude hiding (length, sum, product, reverse, repeat, zip, zipWith, concat)
 
