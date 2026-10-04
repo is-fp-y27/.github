@@ -1,8 +1,8 @@
 # Все еще разминка
 ## Задание
-содержимое `Main.hs` для  `/lab2/app/Main.hs`. Комментарии над функциями можно стереть
+содержимое `Lab2.hs` для  `/lab2/app/Lab2.hs`. Комментарии над функциями можно стереть
 ```haskell
-module Main where
+module Lab2 where
 
 import Prelude hiding (length, sum, product, reverse, repeat, zip, zipWith, concat)
 
@@ -63,6 +63,7 @@ pythagoras = undefined
 * Размеры списка до `qsort` и после должны совпадать
 * `divisors` возвращает делители в порядке возрастания
 * Пифагоровы тройки `(3, 4, 5)` и `(6, 8, 10)` считаются двумя уникальными тройками
+* `splitFilter` возвращает пару (aka кортеж), состоящую из двух списков
 
 Старайтесь не допускать ситуации, когда функция является [частичной](https://wiki.haskell.org/Partial_functions)
 
