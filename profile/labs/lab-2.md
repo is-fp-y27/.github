@@ -141,7 +141,7 @@ tests =
   , ("splitFilter even [1, 3, 5]", splitFilter even [1, 3, 5] == ([], [1, 3, 5]))
   , ("splitFilter (> 0) [-1, 0, 1, 2, -3]", splitFilter (> 0) [-1, 0, 1, 2, -3] == ([1, 2], [-1, 0, -3]))
   , ("splitFilter id [True, False, True]", splitFilter id [True, False, True] == ([True, True], [False]))
-  , ("qsort []", qsort [] == [])
+  , ("qsort []", qsort [] == ([] :: [Int]) )
   , ("qsort [1]", qsort [1] == [1])
   , ("qsort [2, 1]", qsort [2, 1] == [1, 2])
   , ("qsort [3, 1, 2]", qsort [3, 1, 2] == [1, 2, 3])
