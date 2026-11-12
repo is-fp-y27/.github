@@ -15,6 +15,7 @@
 * [Лекция 3. Списки и кортежи](./media/lec-3.pdf)
 * [Лекция 4. Типы и классы типов](./media/lec-4.pdf)
 * [Лекция 5. Semigroup. Monoid. Functor](./media/lec-5.pdf)
+* [Лекция 6. Applicative. Monad](./media/lec-6-short.pdf)
 
 ## Лабораторные работы
 * [Работа 1](./labs/lab-1.md)
